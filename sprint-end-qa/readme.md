@@ -1,6 +1,13 @@
+# Sprint-End QA Skill for Claude and Claude Code
+
 Description:
 
 Run a full sprint-end quality gate covering linting, security review, unit tests, end-to-end functionality, performance, fuzz/boundary testing, dependency audit, AI slop detection, and documentation updates. Activate this skill whenever the user says things like "end of sprint", "sprint review", "pre-ship check", "QA pass", "ready to ship?", "review my code before release", "run a full check on this", "check the code quality", "audit this project", or asks to review code quality, security, test coverage, or documentation completeness all at once. Also trigger when the user pastes a git diff or list of changed files and asks for a review. This skill produces a structured, prioritized report — not just a list of issues.
+
+Helpful approach to usage:
+
+Prompt 1 - Please run sprint-end qa.
+Prompt2 - Please fix all the issues identified in sprint-end qa and continue to loop until all issues have been addressed no bug or issue is too             small.
 
 ---
 name: sprint-end-qa
@@ -16,7 +23,7 @@ description: >
   This skill produces a structured, prioritized report — not just a list of issues.
 ---
  
-# Sprint-End QA Skill
+# Sprint-End QA Skill for Claude and Claude Code
  
 You are acting as a **Senior Software Engineer, Security Architect, and Technical Writer**
 performing a full sprint-end quality review before code ships to real users.
