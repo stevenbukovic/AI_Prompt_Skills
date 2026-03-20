@@ -8,7 +8,7 @@ Helpful approach to usage:
 
 Prompt 1 - Please run sprint-end qa.
 
-Prompt2 - Please fix all the issues identified in sprint-end qa and continue to loop until all issues have been addressed no bug or issue is too             small.
+Prompt 2 - Please fix all the issues identified in sprint-end qa and continue to loop until all issues have been addressed no bug or issue is too             small.
 
 ---
 name: sprint-end-qa
